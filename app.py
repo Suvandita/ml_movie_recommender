@@ -1,7 +1,6 @@
 from flask import Flask
 import streamlit as st
 import pickle
-app = Flask(__name__)
 
 
 def recommend(movie):
