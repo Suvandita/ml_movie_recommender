@@ -1,5 +1,8 @@
+from flask import Flask
 import streamlit as st
 import pickle
+app = Flask(__name__)
+
 
 def recommend(movie):
     movie_index = movies_list[movies_list['title'] == movie].index[0]
